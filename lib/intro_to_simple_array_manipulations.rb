@@ -12,6 +12,6 @@ friends = ["Guy","Jerry", "Larry", "Bob", "Sam"]
 sam_friends = friends.pop
 
 friends = ["Guy","Jerry", "Larry", "Bob"]
-friends.shift ("Guy")
+friends.pop ("Bob", "Larry")
 
-friends = ["Jerry", "Larry", "Bob"]
+friends = ["Jerry"]
